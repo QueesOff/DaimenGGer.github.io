@@ -1,0 +1,276 @@
+@media screen and (max-width: 1024px){
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 1024px;
+        margin: 0;
+        padding: 40px 40px;
+        box-sizing: border-box;
+    }
+    //header//
+    header{
+        .hamburger-menu{
+            display: flex;
+            align-items: center;
+        }
+        .btn{
+            padding: 15px 30px;
+            font-size: 16px;
+        }
+    }
+    //hero//
+    main{
+        .hero{
+            gap: 10px;
+            &__img{
+                img{
+                    width: 450px;
+                    height: 450px;
+                }
+            }
+            &__text{
+                width: 390px;
+                margin-top: 0;
+                h1{
+                    font-size: 44px;
+                    margin: 0;
+                    margin: 0 0 20px 0;
+                }
+                p{
+                    font-size: 16px;
+                }
+                .line2{
+                    span{
+                        display: none;
+                    }
+                    p{
+                        margin: 0;
+                    }
+                }
+                .line3{
+                    width: 340px;
+                    border: 0.6px solid #C8C8C8;
+                }
+            
+            }
+            &__text2{
+                margin-top: 0; 
+            }
+        }
+    }
+    //projects//
+    .projects{
+        display: flex;
+        gap: 0;
+        margin-bottom: 140px;
+        align-items: center;
+        .card1{
+            background: #FDF5EF;
+            border-radius: 5px;
+            box-shadow: 0px 12px 30px rgba(212, 212, 212, 0.35);
+            border-radius: 20px;
+        }
+        .card2{
+            background: #F3F1FA;
+            border-radius: 20px;
+            box-shadow: 0px 12px 30px rgba(212, 212, 212, 0.35);
+        }
+        .card_text{
+            padding: 55px 0 0 55px;
+            width: 250px;
+            p{
+                font-size: 18px;
+                color: #757683;
+            }
+            h2{
+                font-family: 'Semibold';
+                font-size: 28px;
+                color: #1B1C23;
+            }
+        }
+        .card_img{
+           padding: 40px 35px 0 35px; 
+           width: 383px;
+        }
+    }
+    //about//
+    .about{
+        gap: 50px;
+        img{
+            width: 370px;
+        }
+        &__text{
+            h1{
+                font-size: 36px;
+            }
+            &__con{
+                padding: 0;
+                div{
+                    gap: 10px;
+                }
+            }
+        }
+        &__stat{
+            gap: 0;
+            justify-content: space-between;
+            padding: 0;
+        }
+    }
+    //services//
+    .services{
+        width: 944px;
+        height: 600px;
+        .title{
+            margin-top: 60px;
+        }
+        &__cards{
+            padding: 0;
+            &__card{
+                padding: 15px 20px;
+                width: 230px;
+                height: auto;
+                .item{
+                    h3{
+                        font-size: 18px;
+                    }
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .services_btn{
+            margin-top: 50px;
+        }
+    }
+    //ed//
+    .education{
+        gap: 50px;
+        .ed{
+            width: 688px;
+            &__img{
+                margin-bottom: 30px;
+                img{
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    //contact//
+    .cta{
+        &__img{
+            padding-top: 30px;
+            img{
+                width: 350px;
+            }
+        }
+        &__text{
+            h1{
+                font-size: 36px;
+            }
+        }
+    }
+    //testimonial//
+    .testimonial{
+        gap: 40px;
+        padding: 0;
+        width: 644px;
+        padding: 0 150px;
+        .test_text{
+            #p2{
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+            .test_img{
+                display: flex;
+                gap: 30px;
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            } 
+        }
+
+    }
+    //blog//
+    .blog{
+        margin-bottom: 100px;
+        &__box{
+            align-items: center;
+            gap: 10px;
+            &__card{
+                width: 300px;
+                height: 410px;
+                .blog1{
+                    width: 300px;
+                }
+                .time{
+                    gap: 30px;
+                    .data,.clock{
+                        display: flex;
+                        gap: 10px;
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                &__text{
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+                .client{
+                    img{
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    //hireus//
+    .hire{
+        padding: 0 30px;
+        h1{
+            font-size: 36px;
+        }
+        a{
+            gap: 10px;
+            h2{
+                font-size: 36px;
+            }
+        }
+    }
+    //footer//
+    footer{
+        .footer{
+            &__text{
+                background: #f5f5f5;
+                padding: 20px 0;
+                width: 944px;
+                border-radius: 20px;
+                gap: 30px;
+                box-shadow: 0px 12px 30px rgba(237, 237, 237, 0.35);
+                &__text1{
+                    padding: 50px 0 0 0;
+                }
+                &__text2{
+                    padding: 0 40px;
+                    align-items: center;
+
+                    nav{
+                        ul{
+                            padding: 0;
+                            gap: 20px;
+                            .menu__item{
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

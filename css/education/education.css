@@ -1,0 +1,65 @@
+.education {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.education .ed {
+  width: 550px;
+}
+.education .ed__img {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.education .ed__card {
+  display: flex;
+  justify-content: space-between;
+}
+.education .ed__card__left h5 {
+  font-family: "Semibold";
+  font-size: 20px;
+  color: #1B1C23;
+  margin: 0;
+}
+.education .ed__card__left p {
+  margin: 0;
+  font-size: 16px;
+  color: #757683;
+  margin-bottom: 30px;
+}
+.education .ed__card__left2 {
+  display: flex;
+  gap: 20px;
+}
+.education .ed__card__left2 img {
+  width: 40px;
+  height: 40px;
+}
+.education .ed__card__left2 div h5 {
+  font-family: "Semibold";
+  font-size: 20px;
+  color: #1B1C23;
+  margin: 0;
+}
+.education .ed__card__left2 div p {
+  margin: 0;
+  font-size: 16px;
+  color: #757683;
+  margin-bottom: 30px;
+}
+.education .ed__card__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.education .ed__card__right img {
+  width: 12px;
+  height: 12px;
+  padding: 0 0 0 100px;
+}
+.education .ed__card__right li {
+  color: #757683;
+}
+.education .ed hr {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=education.css.map */

@@ -1,0 +1,47 @@
+.cta{
+    height: 421px;
+    background-image: url(/Project/img/cont.png);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+    &__img{
+        padding: 0 50px;
+        img{
+            width: 400px;
+        }
+    }
+    &__text{
+        padding:45px 45px 45px 0;
+        h1{
+            font-family: 'Bold';
+            font-size: 40px;
+            color: white;
+            padding: 0;
+        }
+        p{
+            font-size: 16px;
+            color: #A6A7AE;
+            padding:0 0 20px 0;
+        }
+        button{
+            padding: 19px 35px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            background: #FF694B;
+            box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+            cursor: pointer;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            -webkit-transition: all 0.5s ease-out;
+        }
+        button:hover{
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+    }
+}

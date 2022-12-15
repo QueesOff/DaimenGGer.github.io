@@ -1,0 +1,61 @@
+footer .footer__text {
+  background-image: url(/Project/img/footer.png);
+  width: 1240px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+footer .footer__text__text1 {
+  align-items: center;
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+footer .footer__text__text1 h1 {
+  font-family: "Bold";
+  font-size: 42px;
+}
+footer .footer__text__text1 p {
+  font-size: 16px;
+  color: #757683;
+}
+footer .footer__text__text1__img img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+footer .footer__text__text2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 50px 50px;
+}
+footer .footer__text__text2 nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+footer .footer__text__text2 .menu__item {
+  color: #757683;
+  font-size: 14px;
+}
+footer .footer__text__text2 .menu__item:hover {
+  color: #FF694B;
+}
+footer .footer__text__text2 .email {
+  display: flex;
+  gap: 10px;
+  color: #757683;
+  font-size: 16px;
+  align-items: center;
+  cursor: pointer;
+}
+footer .footer__text__text2 .email img {
+  width: 20px;
+  height: 20px;
+}
+footer .footer__text__text2 .email p:hover {
+  color: #FF694B;
+}
+footer p {
+  text-align: center;
+  color: #757683;
+  font-size: 14px;
+}/*# sourceMappingURL=footer.css.map */

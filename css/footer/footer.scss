@@ -1,0 +1,69 @@
+footer{
+    .footer{
+        &__text{
+            background-image: url(/Project/img/footer.png);
+            width: 1240px;
+            margin-bottom: 40px;
+            border-radius: 20px;
+            &__text1{
+                align-items: center;
+                text-align: center;
+                padding: 100px 0 0 0;
+                h1{
+                    font-family: 'Bold';
+                    font-size: 42px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #757683;
+                }
+                &__img{
+                    img{
+                        width: 70px;
+                        height: 70px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &__text2{
+                display: flex;
+                justify-content: space-between;
+                padding: 0 50px 50px 50px;
+                nav{
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        list-style: none;
+                    }
+                }
+                .menu__item{
+                    color: #757683;
+                    font-size: 14px;
+                }
+                .menu__item:hover{
+                    color: #FF694B;
+                }
+                .email{
+                    display: flex;
+                    gap: 10px;
+                    color: #757683;
+                    font-size: 16px;
+                    align-items: center;
+                    cursor: pointer;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .email p:hover{
+                    color: #FF694B;
+                }
+            }
+        }    
+    }
+    p{
+        text-align: center;
+        color: #757683;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(./header/header.css);
+@import url(./hero-banner/hero.css);
+@import url(./projects/projects.css);
+@import url(./about/about.css);
+@import url(./services/services.css);
+@import url(./education/education.css);
+@import url(./cta/cta.css);
+@import url(./Testimonial/testimonial.css);
+@import url(./blog/blog.css);
+@import url(./hireus/hire.css);
+@import url(./footer/footer.css);
+@font-face {
+  font-family: "Medium";
+  src: url(../fonts/THICCCBOI-Medium.woff2);
+}
+@font-face {
+  font-family: "Semibold";
+  src: url(../fonts/THICCCBOI-SemiBold.woff2);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/THICCCBOI-Bold.woff2);
+}
+* {
+  margin: none;
+  padding: none;
+  font-family: "Medium";
+}
+
+body {
+  max-width: 1400px;
+  padding: 40px 50px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #1B1C23;
+}/*# sourceMappingURL=main.css.map */

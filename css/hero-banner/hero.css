@@ -1,0 +1,90 @@
+main .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+main .hero__img img {
+  margin-top: -5px;
+}
+main .hero__text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .hero__text .line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .hero__text .line span {
+  width: 30px;
+  border: 0.7px solid #FF694B;
+  transform: rotate(-180deg);
+}
+main .hero__text .line p {
+  color: #FF694B;
+  font-size: 16px;
+}
+main .hero__text h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+main .hero__text .line2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+main .hero__text .line2 span {
+  width: 0;
+  height: 105px;
+  border: 0.6px solid #C8C8C8;
+  transform: rotate(180deg);
+}
+main .hero__text .line2 p {
+  width: 350px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #757683;
+}
+main .hero__text__btn {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+main .hero__text .line3 {
+  width: 412px;
+  border: 1px solid #C8C8C8;
+}
+main .hero__text p {
+  font-size: 14px;
+  color: #757683;
+}
+main .hero__text2 {
+  width: 300px;
+  margin-top: 150px;
+}
+main .hero__text2 .line4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .hero__text2 .line4 span {
+  width: 30px;
+  height: 0;
+  border: 0.6px solid #757683;
+}
+main .hero__text2 .line4 p {
+  color: #757683;
+  margin: 0;
+}
+main .hero__text2 .bold {
+  font-family: "Bold";
+}
+main .hero__text2 a {
+  color: #FF694B;
+  text-decoration: underline;
+}/*# sourceMappingURL=hero.css.map */

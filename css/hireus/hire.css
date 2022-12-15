@@ -1,0 +1,22 @@
+.hire {
+  margin-bottom: 150px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+}
+.hire h1 {
+  color: #1B1C23;
+  font-family: "Bold";
+  font-size: 42px;
+}
+.hire a {
+  display: flex;
+  gap: 20px;
+}
+.hire a h2 {
+  font-family: "Bold";
+  font-size: 42px;
+  color: #FF694B;
+}/*# sourceMappingURL=hire.css.map */

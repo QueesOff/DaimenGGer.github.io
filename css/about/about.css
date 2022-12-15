@@ -1,0 +1,62 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  margin-bottom: 100px;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__text h1 {
+  font-family: "Bold";
+  font-size: 42px;
+}
+.about__text__con {
+  display: flex;
+}
+.about__text__con div {
+  display: flex;
+  gap: 20px;
+}
+.about__text__con div .bg {
+  min-width: 30px;
+  height: 30px;
+  background: #FF694B;
+  align-items: center;
+}
+.about__text__con div .bg p {
+  padding: 10px;
+  color: white;
+}
+.about__text__con div .bg_text {
+  flex-direction: column;
+}
+.about__text__con div .bg_text h4 {
+  font-family: "Bold";
+  font-size: 22px;
+  margin: 0;
+}
+.about__text__con div .bg_text p {
+  margin: 0;
+  font-size: 16px;
+  color: #757683;
+}
+.about__stat {
+  display: flex;
+  gap: 80px;
+}
+.about__stat div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about__stat div h1 {
+  font-family: "Bold";
+  font-size: 42px;
+}
+.about__stat div p {
+  font-size: 16px;
+  color: #757683;
+}/*# sourceMappingURL=about.css.map */

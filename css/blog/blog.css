@@ -1,0 +1,61 @@
+.blog {
+  margin-bottom: 150px;
+}
+.blog h1 {
+  text-align: center;
+  color: #1B1C23;
+  font-family: "Bold";
+  font-size: 44px;
+}
+.blog__box {
+  display: flex;
+  justify-content: space-between;
+}
+.blog__box__card {
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0px 12px 30px rgba(237, 237, 237, 0.35);
+  width: 380px;
+  height: 500px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.blog__box__card .blog1 {
+  width: 380px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 12px 30px rgba(237, 237, 237, 0.35);
+}
+.blog__box__card .time {
+  display: flex;
+  gap: 40px;
+}
+.blog__box__card .time .data, .blog__box__card .time .clock {
+  display: flex;
+  gap: 10px;
+}
+.blog__box__card .time .data p, .blog__box__card .time .clock p {
+  color: #757683;
+  font-size: 16px;
+}
+.blog__box__card h2 {
+  font-family: "Bold";
+  font-size: 24px;
+}
+.blog__box__card__text {
+  padding: 20px;
+}
+.blog__box__card .client {
+  margin: -20px 0 0 50px;
+}
+.blog__box__card .client img {
+  width: 140px;
+  height: 60px;
+}
+.blog__box__card:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}/*# sourceMappingURL=blog.css.map */
