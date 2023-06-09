@@ -9,4 +9,4 @@ the work performed and the technologies used. There may also be sections on the 
 reviews and contact details for communication. The design of the landing site strives to be attractive, 
 modern and intuitive for visitors in order to effectively present a portfolio and interest potential customers or employers.
 
-![alt text](screen/img.png)
+![alt text](img/img.png)
